@@ -1,0 +1,47 @@
+@media all {
+    #left {
+        float: left;
+        width: 60%;
+        height: 500px;
+        text-align: center;
+        margin-top: 150px;
+        background-image: url("./img/smile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: 90%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #ho {
+        font-size: 50px;
+    }
+    #ten {
+        font-size: 80px;
+    }
+    #intro {
+        margin-top: 250px;
+        font-size: 30px;
+    }
+    #right {
+        float: left;
+        width: 40%;
+        height: 720px;
+        background-color: rgb(20, 24, 92);
+    }
+}
+
+body {
+    background-color: rgb(215, 224, 159);
+}
+
+#avt {
+    image-rendering: pixelated;
+    object-fit: contain;
+    margin-top: 100px;
+    box-shadow: 6px 6px 6px rgb(215, 224, 159);
+}
+
+#avt:hover {
+    transform: rotate3d(1, 1, 1, 20deg);
+    transition: 10s;
+}
